@@ -19,11 +19,13 @@ use think\Route;
 //        'fuck'  =>  'index/Fuck',
 //    ],
 Route::group('my', function () {
-    Route::get(':id', 'my/demo');
+    Route::get(':id', 'My/demo');
 });
 Route::group('index', function () {
-    Route::get('/demmo/:id', 'demo/demo',[],['id'=>'\d+']);
+    Route::get('/demo/:id', 'demo/demo',[],['id'=>'\d+']);
     Route::get('/demo2', 'demo/demo2');
+    Route::get('/db/:id', 'demo/db');
+    Route::get('/model_db', 'demo/model_db');
 });
 //    '[fuck]'     => [
 //        '[:id]'   => ['index/demo/demo', ['method' => 'get'], ['id' => '\d+']],

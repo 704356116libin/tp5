@@ -1,7 +1,7 @@
 <?php
 namespace app\my\controller;
 
-class Demo
+class My
 {
     public function demo()
     {

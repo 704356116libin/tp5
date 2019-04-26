@@ -15,7 +15,7 @@ return [
     // 服务器地址
     'hostname'        => 'localhost',
     // 数据库名
-    'database'        => 'tp_db',
+    'database'        => 'tp5',
     // 用户名
     'username'        => 'homestead',
     // 密码
